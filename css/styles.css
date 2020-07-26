@@ -48,3 +48,6 @@ h2 {
     background-color: unset;
     border: solid white 1px;
 }
+p {
+    text-align: center;
+}
