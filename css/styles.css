@@ -25,30 +25,26 @@ img {
     line-height: unset;
 }
 .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:16%;
+    margin-right: 16%; 
+  }
+  .col-md-3 img{
+    max-width: 200%;
+    max-height: 200%;
+  }
+h3{
     text-align: center;
-    justify-content: center;
+  }
+.contact {
+    background-image: url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg);
 }
-#imagea {
-    padding: 20px;
+h2 {
+    text-align: center;
 }
-#imageb {
-    padding: 20px;
-}
-#imagec {
-    padding: 20px;
-}
-#imaged {
-    padding: 20px;
-}
-#imagee {
-    padding: 20px;
-}
-#imagef {
-    padding: 20px;
-}
-#imageg {
-    padding: 20px;
-}
-#imageh {
-    padding: 20px;
+.form {
+    background-color: unset;
+    border: solid white 1px;
 }
