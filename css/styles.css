@@ -12,7 +12,7 @@ html {
 body{
     text-align: center;
 }
-#sec-1 {
+#welcome{
     background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true');
     background-size: cover;
     background-attachment: fixed;
@@ -29,26 +29,26 @@ body{
     padding-top: 130px;
 }
 
-#sec-2 {
+#about {
 
     margin: 50px auto;
 }
 
-#sec-3 {
+#services {
     /* font-size: calc(1vw + 1vh + .5vmin); */
     background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true');
     color: white;
     padding: 100px 10%;
 }
 
-#sec-6 h1 {
+#what-we-do h1 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 .p1,.p2,.p3 {
     display: none;
 }
-#sec-4 {
+#portfolio {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -105,7 +105,7 @@ body{
 .text>p {
     padding-top: 67px;
 }
-#sec-5 {
+#contact {
   background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true');
   padding: 40px 5px;
   color: white;
@@ -144,10 +144,10 @@ footer{
   margin: 0 auto;
 }
 @media only screen and (max-width: 1024px){
-    .col-md-12 h1,#sec-2 h1,#sec-3 h1,#sec-4 h1 {
+    .col-md-12 h1,#about h1,#services h1,#what-we-do h1 {
       font-size: calc(3vw + 3vh + .5vmin);
     }
-    .col-md-12 p,#sec-2 p,#sec-3 p {
+    .col-md-12 p,#about p,#services p {
         font-size: calc(1vw + 1vh + .5vmin);
     }
 }

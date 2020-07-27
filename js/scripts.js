@@ -44,10 +44,10 @@ $(document).ready(function(){
   });
   $(document).ready(function(){
       $('#submission').submit(function(event){
-          var display1 = $('input:first').val();
-          var display2 = $('input#mail').val();
-          if(display1 && display2 != ''){
-              alert ('Thank you ' + display1 + ' your subscription is well received');
+          var userName = $('input:first').val();
+          var email = $('input#mail').val();
+          if(userName && email != ''){
+              alert ('Thank you ' + userName + '.' + ' Your subscription is well received');
           }else {
               alert ('Please enter your name and email');
           }
