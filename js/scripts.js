@@ -49,7 +49,7 @@ $(document).ready(function(){
           if(display1 && display2 != ''){
               alert ('Thank you ' + display1 + ' your subscription is well received');
           }else {
-              alert ('Invalid input');
+              alert ('Please enter your name and email');
           }
           event.preventDefault();
       })
