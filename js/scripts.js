@@ -1,37 +1,37 @@
 $(document).ready(function(){
-    $(".image1").click(function(){
-      $(".image1").hide(1200);
+    $(".design").click(function(){
+      $(".design").hide(1200);
       $(".p1").toggle(1200);
       $(".p1").show(1200);
     })
     $(".p1").click(function(){
       $(".p1").hide(1200);
-      $(".image1").toggle(1200);
-      $(".image1").show(1200);
+      $(".design").toggle(1200);
+      $(".design").show(1200);
     });
   });
   $(document).ready(function(){
-      $(".image2").click(function(){
-        $(".image2").hide(1200);
+      $(".development").click(function(){
+        $(".development").hide(1200);
         $(".p2").toggle(1200);
         $(".p2").show(1200);
       })
       $(".p2").click(function(){
         $(".p2").hide(1200);
-        $(".image2").toggle(1200);
-        $(".image2").show(1200);
+        $(".development").toggle(1200);
+        $(".development").show(1200);
       });
   });
   $(document).ready(function(){
-      $(".image3").click(function(){
-        $(".image3").hide(1200);
+      $(".product").click(function(){
+        $(".product").hide(1200);
         $(".p3").toggle(1200);
         $(".p3").show(1200);
       })
       $(".p3").click(function(){
         $(".p3").hide(1200);
-        $(".image3").toggle(1200);
-        $(".image3").show(1200);
+        $(".product").toggle(1200);
+        $(".product").show(1200);
       });
   });
   $(document).ready(function(){
