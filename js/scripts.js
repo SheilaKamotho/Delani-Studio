@@ -43,9 +43,9 @@ $(document).ready(function(){
   })
   });
   $(document).ready(function(){
-      $('#submission').submit(function(event){
-          var userName = $('input:first').val();
-          var email = $('input#mail').val();
+      $('#mc-embedded-subscribe-form').submit(function(event){
+          var userName = $('input#mce-NAME').val();
+          var email = $('input#mce-EMAIL').val();
           if(userName && email != ''){
               alert ('Thank you ' + userName + '.' + ' Your subscription is well received');
           }else {
